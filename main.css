@@ -1,28 +1,97 @@
-.NavBar
+.headerName
+{
+    font-family: 'Odibee Sans', serif;
+    font-size: 100px;
+}
+
+.form
+{
+    background-color: white;
+    color: black;
+    border: 1px solid black; 
+}
+
+#about
+{
+    font-family: 'Tangerine', serif;
+    font-size: 100px;
+}
+
+#skills
+{
+    font-family: 'Tangerine', serif;
+    font-size: 100px;
+}
+
+#portfolio
+{
+    font-family: 'Tangerine', serif;
+    font-size: 100px;
+}
+
+#contact
+{
+    font-family: 'Tangerine', serif;
+    font-size: 100px;
+}
+
+.fontText
+{
+    font-family: 'Odibee Sans', serif;
+}
+
+.backgroundImage
+{
+    background-image: url(https://ctl.s6img.com/society6/img/ADJ35vayxH_bAQOeskwOQAHNUFI/w_700/coffee-mugs/swatch/~artwork,fw_4600,fh_2000,fy_-1300,iw_4600,ih_4600/s6-original-art-uploads/society6/uploads/misc/23fedfa97c574d3c96b98d2f19b003b9/~~/gold-geometric-pattern-on-white-mugs.jpg);
+    
+}
+
+.navBar
 {
     position: fixed;
     top: 0;
     width: 100%;
     text-align: right;
+    color: white;
+    padding-top: 10px;
     padding-right: 20px;
     color: blanchedalmond;
-    background-color: black;
+    background-color: lightblue;
     z-index: 1;
+    font-family: 'Odibee Sans', ;
 }
 
-.MainHeader 
+.navBarFont
 {
-    background-color: black;
+    font-family: 'Odibee Sans', serif;
+    
 }
 
-.HeaderImg:hover
+.navBarLink
 {
+    color: white;
+    font-family: 'Odibee Sans', ;
+}
+
+.mainHeader 
+{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/555d0cbde4b0315ddec1483c/1532978807069-BIU6G5C77JZ41VWH7MT7/ke17ZwdGBToddI8pDm48kOyctPanBqSdf7WQMpY1FsRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwwQIrqN0bcqL_6-iJCOAA0qwytzcs0JTq1XS2aqVbyK6GtMIM7F0DGeOwCXa63_4k/Soft+Blue+Hexagons+-+S.jpg);
+    height: 300px;
+}
+
+.headerImage
+{
+    position: relative;
+    left: 38.5%;
+    height: 200px;
+    width: 350px;
     border-radius: 50%;
-    background-color: #fff;
-    box-shadow:
-        0 0 60px 30px #fff,  /* inner white */
-        0 0 100px 60px #f0f, /* middle magenta */
-        0 0 140px 90px #0ff; /* outer cyan */
+}
+
+.aboutMeImage
+{
+    height: 450px;
+    width: 350px;
 }
 
 .skillsLogo
@@ -48,7 +117,7 @@
 {
   width: 300px;
   height: 300px;
-   border: 1px solid black; 
+  border: 1px solid black; 
 }
 
 .projectCard .cardFront

@@ -5,84 +5,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sean P. Dwyer Portfolio</title>
+
+    <!-- Google Fonts CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Odibee+Sans|Tangerine&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./main.css">
 </head>
-<body>
+<body class="backgroundImage">
+
+<!-- <div class="backgroundImage">
+    <img src="C:\Eleven Fifty Projects\Gold Badge Projects\Portfolio\Assets\Background.png" />
+</div> -->
+
     <!--Navbar-->
-<div class="NavBar">
-    Home |
-    About |
-    Portfolio |
-    Contact
+<div class="navBar navBarFont">
+    <h4>
+    <a class="navBarLink" href="#header">Home</a> |
+    <a class="navBarLink" href="#about">About</a> |
+    <a class="navBarLink" href="#portfolio">Portfolio</a> |
+    <a class="navBarLink" href="#contact">Contact</a>
+    </h4>
 </div>
 <br />
+<header class="mainHeader" id="header">
+    <img class="headerImage" src="C:\Eleven Fifty Projects\Gold Badge Projects\Portfolio\Assets\HeaderImage2.png" alt="Destiny image" />
+    <h1 class="text-center headerName">
+        Sean P. Dwyer
+    </h1>
+</header>
     <!--Landing/Header Section-->
-<header class="MainHeader">
+<!-- <header class="MainHeader">
     <h1 class="text-center">
         <img class="HeaderImg" src="C:\Eleven Fifty Projects\Gold Badge Projects\Portfolio\Assets\HeaderImg2.PNG" alt="HeaderImg" style="border-radius: 50%;"/>
         <br />
         Sean P. Dwyer
     </h1>
-</header>
+</header> -->
+
     <!--About Me-->
         <!--Quote-->
             <!--"People think computers are smart, when in reality they're pretty dumb."-->
-<div class="container">
+<div class="container bg-white">
     <div class="row">
-        <!--
-            need to have it:
-            when viewed on a large screen => place my image on the right side & the about me section on the left
-            when viewed on mobile => view my image before about me section 
-        -->
-        <div class="col-lg-4 col-sm-push-8">
-            // image of me here
-        </div>
-        <div class="col-lg--8 col-sm-pull-4">
-            <h2><u>About Me</u></h2>
+        <div class="col-md-4">
             <br />
-            <p>// stuff about me here</p>
+            <img class="aboutMeImage" src="C:\Eleven Fifty Projects\Gold Badge Projects\Portfolio\Assets\AboutMeImage.jpg" alt="Image of me" />
+        </div>
+        <div class="col-md-8 text-center">
+            <br />
+            <h2 id="about">About Me</h2>
+            <br />
+            <h4 class="fontText">I was born in Chicago, Illinois but have spent most of my life in Fishers, Indiana. <br />
+               I've always enjoyed deconstructing and rebuilding things just to understand how they <br />
+               work and I've found that software development offers the same enjoyment. Although <br />
+               they frustrate me, I still love tackling new challenges. The feeling of excitement <br />
+               you get when you finally solve whatever problem you've been working on for hours is <br />
+               amazing, and the knowledge to be able to solve that same problem easily is invaluable. <br />
+               Although most of my experience is outside of software development field I am a very <br />
+               thorough and detail oriented person that love the problem solving nature of this field <br />
+               and am looking forward to starting my career in the tech industry.
+            </h4>
         </div>
     </div>
+    <br />
     <div class="row">
-        <div class="col-lg-12 text-center">
-            <h2><u>Skills</u></h2>
+        <div class="col-lg-12 text-center bg-info">
+            <h2 id="skills">Skills</h2>
         </div>
-        <div class="col-lg-3 text-center">
+        <div class="col-lg-3 text-center bg-info">
             <br />
             <img class="skillsLogo" src="C:\Eleven Fifty Projects\Gold Badge Projects\Portfolio\Assets\SkillsLogo_Microsoft.png" alt="Microsoft Logo" />
             <br />
-            <span>Microsoft Office</span>
+            <span class="fontText">Microsoft Office</span>
         </div>
-        <div class="col-lg-3 text-center">
+        <div class="col-lg-3 text-center bg-info">
             <br />
             <img class="skillsLogo" src="C:\Eleven Fifty Projects\Gold Badge Projects\Portfolio\Assets\SkillsLogo_HtmlCss1.png" alt="HTML/CSS" Logo" />
             <br />
-            <span>HTML 5/CSS 3</span>
+            <span class="fontText">HTML 5/CSS 3</span>
         </div>
-        <div class="col-lg-3 text-center">
+        <div class="col-lg-3 text-center bg-info">
             <br />
-            <img class="skillsLogo" src="C:\Eleven Fifty Projects\Gold Badge Projects\Portfolio\Assets\SkillsLogo_Bootstrap.jpg" alt="Bootstrap Logo" />
+            <img class="skillsLogo" src="C:\Eleven Fifty Projects\Gold Badge Projects\Portfolio\Assets\SkillLogo_Bootstrap3.png" alt="Bootstrap Logo" />
             <br />
-            <span>Bootstrap</span>
+            <span class="fontText">Bootstrap</span>
         </div>
-        <div class="col-lg-3 text-center">
+        <div class="col-lg-3 text-center bg-info">
             <br />
             <img class="skillsLogo" src="C:\Eleven Fifty Projects\Gold Badge Projects\Portfolio\Assets\SkillsLogo_GitHub.png" alt="GitHub Logo" />
             <br />
-            <span>GitHub</span>
+            <span class="fontText">GitHub</span>
         </div>
     </div>
     <div class="row">
-    <!--Projects Section-->
-        <!--Static Layout Application-->
-        <!--Creature Assignment-->
-        <!--Business Challenges-->
-        <!--Blue Badge TBA-->
-        <!--Red Badge TBA-->
         <div class="col-lg-12 text-center">
-            <h2><u>Portfolio</u></h2>
+        <br />
+            <h2 id="portfolio">Portfolio</h2>
         </div>
     </div>
     <div class="row">
@@ -158,16 +177,18 @@
             </div>
         </div>
     </div>
+    <br />
     <div class="row">
     <!--Contact Section-->
-        <div class="col-lg-12">
-            <h2 class="text-center"><u>Contact Me</u></h2>
+        <div class="col-lg-12 bg-info">
+            <br />
+            <h1 class="text-center" id="contact">Contact Me</h1>
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-12">
-            <p class="text-center">Looking for my resume?</p>
-            <button><a href="// file source here" download>Download Resume</a></button>
+        <div class="col-lg-12 bg-info">
+            <!-- <h6 class="text-center fontText">Looking for my resume?</h6> -->
+            <button class="btn fontText form"><a href="// file source here" download>Download Resume</a></button>
         </div>
     </div>
     <div class="row"></div>
@@ -177,53 +198,58 @@
 
             <form>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 bg-info">
                         <div class="form-group">
-                            <input  type="text" name="firstName" class="form-control" placeholder="First name" required="required" data-error="Firstname is required.">
+                            <input  type="text" name="firstName" class="form-control fontText form" placeholder="First name" required="required" data-error="Firstname is required.">
                             <div class="help-block with-errors"></div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 bg-info">
                         <div class="form-group">
-                            <input type="text" name="lastName" class="form-control" placeholder="Last name" required="required" data-error="Lastname is required.">
+                            <input type="text" name="lastName" class="form-control fontText form" placeholder="Last name" required="required" data-error="Lastname is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row bg-info">
+                    <div class="col-md-6 bg-info">
+                        <div class="form-group">
+                            <input type="email" name="email" class="form-control fontText form" placeholder="Email" required="required" data-error="Valid email is required.">
                             <div class="help-block with-errors"></div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-12 bg-info">
                         <div class="form-group">
-                            <input type="email" name="email" class="form-control" placeholder="Email" required="required" data-error="Valid email is required.">
+                            <textarea name="message" class="form-control fontText form" placeholder="Message" rows="4" required="required" data-error="Please, leave us a message."></textarea>
                             <div class="help-block with-errors"></div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="form-group">
-                            <textarea name="message" class="form-control" placeholder="Message" rows="4" required="required" data-error="Please, leave us a message."></textarea>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <input type="submit" class="btn btn-success btn-send" value="Send message">
+                    <div class="col-md-12 bg-info">
+                        <!-- <input type="submit" class="btn btn-success btn-send" value="Send message"> -->
+                        <button type="submit" class="btn btn-send fontText form">Send Message</button>
                     </div>
                 </div>
             </form>
 
         </div>
     </div>
+    <div class="row">
+        <br />
+        <!--Footer-->
+        <footer>
+            <p class="text-center fontText">-Find me on-</p>
+            <p class="text-center">
+                <a href="https://www.linkedin.com/in/sean-dwyer-5597b41a2/" target="_blank"><img class="linkedInImg" src="C:\Eleven Fifty Projects\Gold Badge Projects\Portfolio\Assets\FooterLogo_LinkedIn.png"" alt="LinkedIn" /></a>
+                <a href="https://codepen.io/dashboard/" target="_blank"><img class="codePenImg" src="C:\Eleven Fifty Projects\Gold Badge Projects\Portfolio\Assets\FooterLogo_CodePen1.png"" alt="CodePen" /></a>
+                <a href="https://github.com/spdwyer06" target="_blank"><img class="gitHubImg" src="C:\Eleven Fifty Projects\Gold Badge Projects\Portfolio\Assets\FooterLogo_GitHub.png"" alt="GitHub" /></a>
+                <p class="text-center fontText"><small>&copy; 2020 Copyright Sean Dwyer</small></p>
+            </p>
+        </footer>
+    </div>
 </div>
-<!--Footer-->
-<footer>
-    <p class="text-center">-Find me on-</p>
-    <p class="text-center">
-        <a href="https://www.linkedin.com/in/sean-dwyer-5597b41a2/" target="_blank"><img class="linkedInImg" src="C:\Eleven Fifty Projects\Gold Badge Projects\Portfolio\Assets\FooterLogo_LinkedIn.png"" alt="LinkedIn" /></a>
-        <a href="https://codepen.io/dashboard/" target="_blank"><img class="codePenImg" src="C:\Eleven Fifty Projects\Gold Badge Projects\Portfolio\Assets\FooterLogo_CodePen1.png"" alt="CodePen" /></a>
-        <a href="https://github.com/spdwyer06" target="_blank"><img class="gitHubImg" src="C:\Eleven Fifty Projects\Gold Badge Projects\Portfolio\Assets\FooterLogo_GitHub.png"" alt="GitHub" /></a>
-        <p class="text-center"><small>&copy; 2020 Copyright Sean Dwyer</small></p>
-    </p>
-</footer>
+
 
 
 
