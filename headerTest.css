@@ -1,0 +1,73 @@
+body
+{
+    background-image: url(Assets/Background2.PNG);
+    background-position: center;
+}
+
+.blarg
+{
+    background-color: white;
+}  
+
+
+
+.test1
+{
+    /* margin-top: 0px;
+    margin-left: 135px; */
+    /* background-image: url(/Assets/HeaderBackground.jpg); */
+    height: 300px;
+    width: 700px;
+    transform: rotateX(180deg);
+    float: left;
+    /* margin-left: 0px; */
+    /* float: left; */
+}
+
+.test2
+{
+    /* background-image: url(/Assets/HeaderBackground.jpg); */
+    height: 300px;
+    width: 700px; 
+    transform: rotate(180deg);
+    /* float: inline-start; */
+    /* margin-left: 0px; */
+}
+
+
+
+.headerImage
+{
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 300px; 
+}
+
+.navBar
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: right;
+    color: white;
+    padding-top: 10px;
+    padding-right: 20px;
+    color: blanchedalmond;
+    background-color: lightblue;
+    z-index: 1;
+    font-family: 'Odibee Sans', ;
+}
+
+.navBarFont
+{
+    font-family: 'Odibee Sans', serif;
+    
+}
+
+.navBarLink
+{
+    color: white;
+    font-family: 'Odibee Sans', ;
+}
+
